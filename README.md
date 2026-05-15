@@ -16,14 +16,6 @@ A2/
 └── PakWheelsSystem.cpp — PakWheelsSystem class + main()
 ```
 
----
-
-## How to Compile & Run
-
-```bash
-g++ -std=c++17 PakWheelsSystem.cpp -o pakwheels
-./pakwheels
-```
 
 ---
 
@@ -168,6 +160,5 @@ New additions on top:
 12. Add Seller Review
 13. Show Seller Reviews    (also prints average rating via friend function)
 14. Stats
-15. Demo: Operator Overloading + Friend Functions
 0.  Exit
 ```
