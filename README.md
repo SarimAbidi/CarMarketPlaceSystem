@@ -1,11 +1,5 @@
 # PakWheels Car Marketplace — Assignment 02
 
-**Subject:** Object-Oriented Programming  
-**Instructor:** Talha Shahid  
-**Due:** 18-May-2026
-
----
-
 ## File Structure
 
 ```
@@ -21,7 +15,7 @@ A2/
 
 ## OOP Concepts Used
 
-### 1. Inheritance (8 marks)
+### 1. Inheritance
 
 Five inheritance relationships are implemented:
 
@@ -37,7 +31,7 @@ All derived classes inherit the common fields (`id`, `name`, `email` / `vehicleI
 
 ---
 
-### 2. Polymorphism (5 marks)
+### 2. Polymorphism
 
 **Function overriding with virtual functions:**
 
@@ -66,7 +60,7 @@ void displayDetails() const override {
 
 ---
 
-### 3. Abstraction (10 marks)
+### 3. Abstraction
 
 `Vehicle` and `User` are both abstract classes — they cannot be instantiated directly because they have pure virtual functions. This hides implementation details and forces derived classes to provide the right behaviour.
 
@@ -79,7 +73,7 @@ Header files separate the interface (what the class exposes) from the implementa
 
 ---
 
-### 4. Operator Overloading (7 marks)
+### 4. Operator Overloading
 
 Four `operator==` overloads are implemented:
 
@@ -90,20 +84,10 @@ Four `operator==` overloads are implemented:
 | `Review` | same reviewer name (prevent double review) |
 | `User` | same userID |
 
-**Usage in the demo (option 15):**
-```cpp
-Engine e1(150, "Petrol", "E-001");
-Engine e2(150, "Petrol", "E-002");
-cout << (e1 == e2);   // true  — same HP and fuel
-
-Car c1(101, ...);
-Car c2(101, ...);
-cout << (c1 == c2);   // true  — same vehicleID
-```
 
 ---
 
-### 5. Friend Functions (5 marks)
+### 5. Friend Functions 
 
 Four friend functions are used, each justified by a specific need:
 
@@ -125,7 +109,7 @@ cout << "Average Rating: " << calcAvgRating(seller) << "/10\n";
 
 ---
 
-### 6. Integration with Assignment 01 (5 marks)
+### 6. Integration with Assignment 01 
 
 All original features from Assignment 01 are preserved and extended:
 
