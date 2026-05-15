@@ -123,7 +123,6 @@ New additions on top:
 - `Car` and `Bike` derived types with their own display
 - `listAll()` (admin) vs `listApproved()` (public) split
 - Stats view
-- Demo option (15) that runs all operator overloading and friend function examples live
 
 ---
 
